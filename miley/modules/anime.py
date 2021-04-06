@@ -8,7 +8,7 @@ import requests
 from miley import dispatcher
 from miley.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
-from telegram.ext import Callback, run_async
+
 
 info_btn = "More Information"
 kaizoku_btn = "Kaizoku ☠️"
